@@ -12,7 +12,7 @@ public class AnalyticsCounter {
 	public static void main(String args[]) throws Exception {
 		// first get input
 		BufferedReader reader = new BufferedReader (new FileReader("symptoms.txt"));
-		String line = reader.readLine();
+		String line = reader.readLine(); // variable Line lit la 1er ligne du fichier "symptoms.txt"
 
 		int i = 0;	// set i to 0
 		int headCount = 0;	// counts headaches
