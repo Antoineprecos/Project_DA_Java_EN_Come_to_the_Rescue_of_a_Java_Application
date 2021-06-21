@@ -11,7 +11,10 @@ public class AnalyticsCounter {
 	private static int rashCount = 0;		// initialize to 0
 	private static int pupilCount = 0;		// initialize to 0
 	
-	public static void main(String args[]) throws Exception {
+	public static void main(String args[]) throws Exception
+	ArrayList<String> result = new ArrayList<String>();
+
+	{
 		// first get input
 		BufferedReader reader = new BufferedReader (new FileReader("symptoms.txt"));
 		String line = reader.readLine(); // variable Line lit la 1er ligne du fichier "symptoms.txt"
