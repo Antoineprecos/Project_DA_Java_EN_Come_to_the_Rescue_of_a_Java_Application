@@ -22,14 +22,15 @@ public class AnalyticsCounter {
 
 			i++;	// increment i
 			System.out.println("symptom from file: " + line);
-			if (line.equals("headache")) {
+			if (line.equals("headache")) // equals permet de comparer 2 variables {
 				headCount++;
 				System.out.println("number of headaches: " + headCount);
 			}
 			else if (line.equals("rush")) {
 				rashCount++;
 			}
-			else if (line.contains("pupils")) {
+			else if (line.contains("pupils")) // contains est utilisé pour déterminer si un
+				// élément existe dans un ArrayList ou non{
 				pupilCount++;
 			}
 
